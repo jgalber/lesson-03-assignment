@@ -45,7 +45,7 @@
     box-shadow: -5px 5px 5px #E8E3C4;
     transition:.5s;
   }
-  a[href="https://www.google.com"]:hover {
+  a[href="https://github.com/jgalber/lesson-03-assignment"]:hover {
     font-weight: bold;
     font-size: 1.1em;
     color: #E8E3C4;
