@@ -99,3 +99,12 @@
     color: hsl(0, 0%, 100%);
     letter-spacing: 5px;
   }
+
+  a:hover {
+    color: #E8E3C4;
+    border-radius: 8px;
+    text-shadow: 5px 5px 5px #E8E3C4;
+    transition:.5s;
+
+
+  }
