@@ -1,0 +1,205 @@
+
+* {
+  box-sizing: border-box;
+  /* border: 1px solid orange; */
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  main {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Navigation Bar */
+  header {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+  }
+  nav {
+    padding: 20px;
+  }
+  ul {
+    padding: 20px;
+  }
+  li {
+    padding: 18px;
+    display: inline;
+  }
+  a {
+    margin: 40px;
+    font-family: 'Cinzel Decorative', cursive, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    letter-spacing: 5px;
+  }
+  a[href="./index.html"]:hover {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #E8E3C4;
+    border-radius: 8px;
+    box-shadow: -5px 5px 5px #E8E3C4;
+    transition:.5s;
+  }
+  a[href="https://www.google.com"]:hover {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #E8E3C4;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px #E8E3C4;
+    transition:.5s;
+  }
+
+  /* logo */
+  h1 {
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 4em;
+    padding: 0;
+    margin: 0;
+    line-height: 500px;
+    letter-spacing: 35px;
+    color: #000;
+  }
+  h1:hover {
+    color: #91BDCA;
+    letter-spacing: 60px;
+    transition: 1s ease;
+    text-shadow: 2px 2px 5px #FF0000;
+  }
+  #big-m:hover {
+    color: #C4BEAB;
+    margin: 0;
+    padding: 0;
+    font-size: 5em;
+    transition: 1s ease;
+    text-shadow: 6px 6px 6px #DE3C4B;
+  }
+
+  /* Main Section - Grid */
+  .main-area {
+    display: grid;
+    grid-template-areas:
+    "logo logo logo logo"
+    "p p p p"
+    "one one two two";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.25fr .25fr;
+    grid-gap: 12px;
+    padding-bottom: 10px;
+    background-color: #000;
+    color: #FFF;
+  }
+  .logo {
+    grid-area: logo;
+  }
+  #main-text {
+    grid-area: p;
+    font-size: 1.2em;
+    padding: 20px;
+    height: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+  }
+  #main-text:hover {
+    font-size: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    transition: .5s ease;
+  }
+  mark {
+    background-color: #E8E3C4;
+    border: none;
+  }
+  mark:hover {
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    color: #DE3C4B;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 8px;
+    box-shadow: -5px -5px 5px #E8E3C4;
+    transition:.5s ease;
+    word-spacing: 5px;
+    letter-spacing: 10px;
+  }
+  .article-one {
+    grid-area: one;
+    padding: 10px;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+  }
+  #remus {
+    text-align: right;
+    color: hsl(0, 0%, 0%);
+  }
+  #remus:hover {
+    color: rgb(255, 255, 255);
+    text-align: right;
+    transition: .5s ease;
+  }
+  .article-one p:hover {
+    font-family: arial, sans-serif;
+    font-style: italic;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    transition: .5s ease;
+    background-color: #91BDCA;
+    color: #000000;
+    padding: 10px;
+    border-left: 10px solid #DE3C4B;
+    border-radius: 5px;
+    line-height: 2em;
+  }
+  .article-one span {
+    font-weight: bold;
+  }
+  .article-one span:hover {
+    display: inline-block;
+    background-color:	hsl(0, 100%, 25%);
+    color: #91BDCA;
+    font-style: normal;
+    letter-spacing: 4px;
+    border: 3px dotted hsl(0, 100%, 50%);
+    transition: .5s ease;
+  }
+  .article-two {
+    grid-area: two;
+    padding: 10px;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+  }
+  h2#romulus:hover {
+    text-transform: uppercase;
+    transition: .5s ease;
+    opacity: 0.1;
+  }
+  .article-two p:hover {
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(1.2);
+    transition: .5s ease;
+  }
+
+  /* Footer */
+  footer {
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+  }
+  h4 {
+    padding: 20px;
+    font-family: 'Cinzel Decorative', cursive, sans-serif;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    letter-spacing: 5px;
+  }
