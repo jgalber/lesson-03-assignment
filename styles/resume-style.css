@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px dotted blue; */
+  }
+
+  body {
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.3rem;
+  }
+
+  main {
+    background-color: rgb(243, 244, 246);
+  }
+
+  #navigation {
+    background-color: #4a4e6d;
+    width: auto;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 0;
+    padding-left: 50px;
+  }
+
+  nav {
+    padding: 10px;
+    text-align: center;
+  }
+
+  #nav {
+    margin: 0;
+    padding: 15px;
+  }
+
+  #nav li {
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+  }
+
+  a.contact {
+    text-decoration: none;
+    letter-spacing: 0.4rem;
+    color: rgb(215, 220, 208);
+    font-weight:bold;
+    padding: 6px;
+  }
+
+  .contact:hover {letter-spacing: 0.6rem;
+    transition: 0.5s ease;
+    color: #FFF;
+  }
+
+  .core { display:flex; }
+
+  .career {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 0;
+    float: left;
+    width: 55%;
+  }
+
+  aside {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 1.2em;
+    padding-left: 50px;
+    float: right;
+    width: 45%;
+    margin: 0;
+  }
+
+  img[src="./images/autumn.jpg"] {
+    display: block;
+    width: 50%;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  article.pro {
+    padding-top: 0;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+  }
+
+  header {padding: 25px;}
+
+  h1 {
+    font-family: 'Bitter', serif;
+    text-align: center;
+    padding: 10px;
+    word-spacing: 0.8rem;
+    letter-spacing: 5px;
+    color: #dcdfe5;
+  }
+
+  h2 {
+    font-family: 'Bitter', serif;
+    text-align: center;
+    word-spacing: 0.4rem;
+    color: rgb(66, 70, 97);
+  }
+
+  h3 {
+    font-family: 'Bitter', serif;
+    text-align: center;
+    word-spacing: 0.3rem;
+    color: hsl(232, 19%, 32%);
+  }
+  h4 { font-family: 'Bitter', serif;
+    text-align: center;
+    word-spacing: 0.2rem;
+    color: rgb(66, 70, 97);
+  }
+
+  h5 {
+    font-family: 'Bitter', serif;
+    text-align: center;
+    word-spacing: 0.1rem;
+    color: hsl(0, 0%, 100%);
+  }
+
+  p {
+    text-align: justify;
+    letter-spacing: 0.1rem;
+    padding: 30px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    color: #424561;
+  }
+
+  #career-aim {
+    text-align: justify;
+    padding: 30px;
+    /* width: 40%; */
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(66, 69, 97);
+  }
+
+  #indent {
+    text-align: justify;
+    text-indent: 0.8rem;
+    padding-top: 0;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    /* width: 40%; */
+    margin-right: auto;
+    margin-left: auto;
+    color: hsl(234, 19%, 32%);
+  }
+
+  ul {
+    padding-left: 120px;
+    padding-right: 0;
+    padding-top: 30px;
+  }
+
+  li {
+    list-style-type: circle;
+    list-style-position: inside;
+    padding: 1vh;
+    margin: 0;
+    color: hsl(239, 28%, 28%);
+  }
+
+  footer {
+    padding-top: 30px;;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    background-color: #212331;
+  }
+
+  #copy {
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+    color: #000;
+    font-weight:bold;
+  }
+
+  a#copy:hover {
+    letter-spacing: 0.4rem;
+    transition: 0.5s all;
+  }
